@@ -1,5 +1,5 @@
-import "./Geo.js"
-import Geo from "../geo/Geo";
+import './geo/Geo'
+import Geo from "./geo/Geo";
 
 
 export default function Address({street, suite, city, zipcode, lat, lng}) {

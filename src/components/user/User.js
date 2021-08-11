@@ -1,10 +1,10 @@
-import "./Address.js"
-import Address from "../address/Address";
+import './address/Address'
+import Address from "./address/Address";
+import './User.css'
 
 export default function User({
                                  id,
                                  name,
-                                 username,
                                  email,
                                  street,
                                  suite,
@@ -19,9 +19,8 @@ export default function User({
                                  bs
                              }) {
     return (
-        <div>
+        <div className='user'>
             <h2>{name}, {id}</h2>
-            <h3>({username})</h3>
             <h4>{email}</h4>
             <Address strret={street} suite={suite} city={city} zipcode={zipcode} lat={lat} lng={lng}/>
             <p>{phone}<br/>{website}</p>

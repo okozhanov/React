@@ -1,7 +1,7 @@
 
 import './App.css';
-import './User.js'
-import User from "./components/user/User";
+import './components/user/User.js'
+import User from "./components/user/User.js";
 
 function App() {
 
@@ -239,7 +239,8 @@ function App() {
   ];
 
   return (
-    <div>
+    <div className='users'>
+
       <User
           id={usersList[0].id}
           name={usersList[0].name}
@@ -255,6 +256,159 @@ function App() {
           companyName={usersList[0].company.name}
           catchPhrase={usersList[0].company.catchPhrase}
           bs={usersList[0].company.bs}
+      />
+
+      <User
+          id={usersList[1].id}
+          name={usersList[1].name}
+          email={usersList[1].email}
+          street={usersList[1].address.street}
+          suite={usersList[1].address.suite}
+          city={usersList[1].address.city}
+          zipcode={usersList[1].address.zipcode}
+          lat={usersList[1].address.geo.lat}
+          lng={usersList[1].address.geo.lng}
+          phone={usersList[1].phone}
+          website={usersList[1].website}
+          companyName={usersList[1].company.name}
+          catchPhrase={usersList[1].company.catchPhrase}
+          bs={usersList[1].company.bs}
+      />
+
+      <User
+          id={usersList[2].id}
+          name={usersList[2].name}
+          email={usersList[2].email}
+          street={usersList[2].address.street}
+          suite={usersList[2].address.suite}
+          city={usersList[2].address.city}
+          zipcode={usersList[2].address.zipcode}
+          lat={usersList[2].address.geo.lat}
+          lng={usersList[2].address.geo.lng}
+          phone={usersList[2].phone}
+          website={usersList[2].website}
+          companyName={usersList[2].company.name}
+          catchPhrase={usersList[2].company.catchPhrase}
+          bs={usersList[2].company.bs}
+      />
+
+      <User
+          id={usersList[3].id}
+          name={usersList[3].name}
+          email={usersList[3].email}
+          street={usersList[3].address.street}
+          suite={usersList[3].address.suite}
+          city={usersList[3].address.city}
+          zipcode={usersList[3].address.zipcode}
+          lat={usersList[3].address.geo.lat}
+          lng={usersList[3].address.geo.lng}
+          phone={usersList[3].phone}
+          website={usersList[3].website}
+          companyName={usersList[3].company.name}
+          catchPhrase={usersList[3].company.catchPhrase}
+          bs={usersList[3].company.bs}
+      />
+
+      <User
+          id={usersList[4].id}
+          name={usersList[4].name}
+          email={usersList[4].email}
+          street={usersList[4].address.street}
+          suite={usersList[4].address.suite}
+          city={usersList[4].address.city}
+          zipcode={usersList[4].address.zipcode}
+          lat={usersList[4].address.geo.lat}
+          lng={usersList[4].address.geo.lng}
+          phone={usersList[4].phone}
+          website={usersList[4].website}
+          companyName={usersList[4].company.name}
+          catchPhrase={usersList[4].company.catchPhrase}
+          bs={usersList[4].company.bs}
+      />
+
+      <User
+          id={usersList[5].id}
+          name={usersList[5].name}
+          email={usersList[5].email}
+          street={usersList[5].address.street}
+          suite={usersList[5].address.suite}
+          city={usersList[5].address.city}
+          zipcode={usersList[5].address.zipcode}
+          lat={usersList[5].address.geo.lat}
+          lng={usersList[5].address.geo.lng}
+          phone={usersList[5].phone}
+          website={usersList[5].website}
+          companyName={usersList[5].company.name}
+          catchPhrase={usersList[5].company.catchPhrase}
+          bs={usersList[5].company.bs}
+      />
+
+      <User
+          id={usersList[6].id}
+          name={usersList[6].name}
+          email={usersList[6].email}
+          street={usersList[6].address.street}
+          suite={usersList[6].address.suite}
+          city={usersList[6].address.city}
+          zipcode={usersList[6].address.zipcode}
+          lat={usersList[6].address.geo.lat}
+          lng={usersList[6].address.geo.lng}
+          phone={usersList[6].phone}
+          website={usersList[6].website}
+          companyName={usersList[6].company.name}
+          catchPhrase={usersList[6].company.catchPhrase}
+          bs={usersList[6].company.bs}
+      />
+
+      <User
+          id={usersList[7].id}
+          name={usersList[7].name}
+          email={usersList[7].email}
+          street={usersList[7].address.street}
+          suite={usersList[7].address.suite}
+          city={usersList[7].address.city}
+          zipcode={usersList[7].address.zipcode}
+          lat={usersList[7].address.geo.lat}
+          lng={usersList[7].address.geo.lng}
+          phone={usersList[7].phone}
+          website={usersList[7].website}
+          companyName={usersList[7].company.name}
+          catchPhrase={usersList[7].company.catchPhrase}
+          bs={usersList[7].company.bs}
+      />
+
+      <User
+          id={usersList[8].id}
+          name={usersList[8].name}
+          email={usersList[8].email}
+          street={usersList[8].address.street}
+          suite={usersList[8].address.suite}
+          city={usersList[8].address.city}
+          zipcode={usersList[8].address.zipcode}
+          lat={usersList[8].address.geo.lat}
+          lng={usersList[8].address.geo.lng}
+          phone={usersList[8].phone}
+          website={usersList[8].website}
+          companyName={usersList[8].company.name}
+          catchPhrase={usersList[8].company.catchPhrase}
+          bs={usersList[8].company.bs}
+      />
+
+      <User
+          id={usersList[9].id}
+          name={usersList[9].name}
+          email={usersList[9].email}
+          street={usersList[9].address.street}
+          suite={usersList[9].address.suite}
+          city={usersList[9].address.city}
+          zipcode={usersList[9].address.zipcode}
+          lat={usersList[9].address.geo.lat}
+          lng={usersList[9].address.geo.lng}
+          phone={usersList[9].phone}
+          website={usersList[9].website}
+          companyName={usersList[9].company.name}
+          catchPhrase={usersList[9].company.catchPhrase}
+          bs={usersList[9].company.bs}
       />
     </div>
   );

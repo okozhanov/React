@@ -1,0 +1,6 @@
+.users {
+    padding: 50px;
+    background: #c5ee9c;
+    display: flex;
+    flex-wrap: wrap;
+}
