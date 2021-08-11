@@ -1,0 +1,16 @@
+.simpson {
+    width: 27%;
+    margin: 3%;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.simpson p {
+    height: 250px;
+    overflow: hidden;
+}
+
+.simpson img {
+    width: 95%;
+}
