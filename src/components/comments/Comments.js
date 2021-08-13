@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import {getCommentsOfPost} from "../../services/comments.services";
 import Comment from "../comment/Comment";
+import './Comments.css'
 
 export default function Comments({postId}) {
 

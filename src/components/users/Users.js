@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {getUsers} from "../../services/users.service";
 import User from "../user/User";
-
+import './Users.css'
 
 export default function () {
 

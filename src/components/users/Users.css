@@ -1,4 +1,7 @@
 
 .users {
-    background: lightgray;
+    background: #b3b3b3;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
 }

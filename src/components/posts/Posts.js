@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import {getPostsOfUser} from "../../services/posts.services";
 import Post from "../post/Post";
+import './Posts.css'
 
 export default function Posts({userId}) {
 
