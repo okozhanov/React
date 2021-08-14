@@ -1,0 +1,13 @@
+
+.post {
+    margin: 20px 45px;
+    text-align: justify;
+}
+
+.post h4 {
+    color: #a11111;
+}
+
+.post p {
+    color: #fff;
+}

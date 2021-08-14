@@ -1,0 +1,22 @@
+
+.page {
+    display: flex;
+}
+
+.page > div {
+    width: 50%;
+}
+
+.users {
+    border-right: 3px solid #d7d7d7;
+}
+
+.posts {
+    background: #ea5656;
+}
+
+.this_user_id {
+    font-size: 75px;
+    color: #d7d7d7;
+    margin-left: 20px;
+}

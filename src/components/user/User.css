@@ -1,0 +1,33 @@
+
+.user:nth-child(2n) {
+    margin-left: 250px;
+}
+
+.user_number {
+    font-size: 75px;
+    color: #d7d7d7;
+    position: relative;
+    left: 25px;
+    z-index: -1;
+}
+
+.user_name {
+    font-size: 25px;
+}
+
+.user_button {
+    width: 150px;
+    font-size: 21px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 300ms;
+    border: 1px solid #000;
+    margin-left: 25px;
+}
+
+.user_button:hover {
+    background: #ea5656;
+    color: #fff;
+}
