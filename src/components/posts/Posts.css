@@ -1,0 +1,21 @@
+
+.page {
+    display: flex;
+    background: #fbffe3;
+}
+
+.posts {
+    width: 70%;
+    border-right: 5px solid #99d030;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.current_post {
+    width: 30%;
+}
+
+html {
+    scroll-behavior: smooth;
+}

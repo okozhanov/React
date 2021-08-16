@@ -1,0 +1,35 @@
+
+
+.post_button {
+    font-size: 21px;
+    padding: 15px;
+    background: #99d030;
+    color: white;
+    border: 0;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.post_button:hover {
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.post {
+    width: 30%;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post h4 {
+    height: 70px;
+    width: 70%;
+    text-align: center;
+}
