@@ -6,8 +6,8 @@ export default function PostDetails({postDetails}) {
         <p><span className={'number_first'}>{postDetails.id}</span>
             <span className={'number_second'}>{postDetails.id}</span></p>
         <h2>{postDetails.title}</h2>
-        <p className={'by_user'}><i>(by user {postDetails.userId})</i></p>
-        <p className={'post_body'}>{postDetails.body}</p>
+        <p><i>(by user {postDetails.userId})</i></p>
+        <p>{postDetails.body}</p>
     </div>
   );
 }

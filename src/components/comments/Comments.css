@@ -3,16 +3,14 @@
     display: flex;
 }
 
-.posts {
+.comments {
     width: 40%;
+    border-left: 5px solid #99d030;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
 }
 
-.current_post {
+.current_comment {
     width: 60%;
-}
-
-html {
-    scroll-behavior: smooth;
 }

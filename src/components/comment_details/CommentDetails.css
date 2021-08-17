@@ -1,0 +1,28 @@
+
+.comment_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.comment_details h2 {
+    text-align: center;
+}
+
+.number_first, .number_second {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.number_first {
+    color: lightgray;
+}
+
+.number_second {
+    position: relative;
+    right: 35px;
+    top: 5px;
+    color: #99d030;
+}

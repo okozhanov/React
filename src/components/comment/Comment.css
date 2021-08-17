@@ -1,6 +1,6 @@
 
 
-.post_button {
+.comment_button {
     font-size: 21px;
     padding: 15px;
     background: #99d030;
@@ -13,14 +13,14 @@
     font-style: italic;
 }
 
-.post_button:hover {
+.comment_button:hover {
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     border-top-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.post {
+.comment {
     width: 80%;
     margin: 1.5%;
     display: flex;
@@ -32,7 +32,7 @@
     margin-left: 15px;
 }
 
-.post h4 {
+.comment h4 {
     height: 60px;
     width: 70%;
     text-align: center;
