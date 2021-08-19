@@ -1,0 +1,9 @@
+
+.car {
+    width: 15%;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 3px 10px;
+    background: #e8e8e8;
+}

@@ -1,0 +1,44 @@
+
+.cars_block {
+    display: flex;
+}
+
+.cars {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add_car {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save_car_form {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save_car_form input {
+    font-size: 21px;
+    width: 200px;
+    background: #b6b6b6;
+    padding: 5px;
+    color: #fff;
+}
+
+.save_car_button {
+    font-size: 21px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.save_car_button:hover {
+    background: #93f33e;
+}
