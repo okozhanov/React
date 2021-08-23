@@ -1,0 +1,10 @@
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cars_form {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
