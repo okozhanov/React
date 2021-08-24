@@ -1,0 +1,8 @@
+.post {
+    width: 27%;
+    margin: 3%;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    padding: 15px;
+    background: #faced6;
+}

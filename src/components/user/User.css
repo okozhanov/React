@@ -1,0 +1,8 @@
+.user {
+    width: 34%;
+    margin: 3% 8%;
+    text-align: center;
+    border: 3px solid lightgray;
+    box-sizing: border-box;
+    background: #aee7e7;
+}

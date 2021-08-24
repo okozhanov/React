@@ -1,0 +1,8 @@
+.comment {
+    width: 20%;
+    margin: 2.5%;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    padding: 15px;
+    background: #c5faa2;
+}
