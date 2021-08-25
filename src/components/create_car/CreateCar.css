@@ -1,0 +1,31 @@
+.create_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.create_form input {
+    border: 3px solid #e5ff0c;
+    margin: 10px;
+    padding: 10px 5px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.create_form button {
+    margin: 5px;
+    padding: 7px 28px;
+    font-size: 23px;
+    font-weight: 700;
+    border: 3px solid #e5ff0c;
+    background: #fff;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.create_form button:hover {
+    background: #e5ff0c;
+    color: #fff;
+}
+

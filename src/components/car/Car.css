@@ -1,0 +1,8 @@
+.car {
+    width: 18%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 5px solid #93e21b;
+}

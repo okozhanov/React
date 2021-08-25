@@ -1,0 +1,53 @@
+.page {
+    display: flex;
+}
+
+.page > div {
+    width: 50%;
+}
+
+.select_form, .edit_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.select_form label {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.select_form select {
+    border: 3px solid #f8702b;
+    margin: 10px;
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.edit_form input {
+    border: 3px solid #f8702b;
+    margin: 10px;
+    padding: 10px 5px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.edit_form button {
+    margin: 5px;
+    padding: 7px 28px;
+    font-size: 23px;
+    font-weight: 700;
+    border: 3px solid #f8702b;
+    background: #fff;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.edit_form button:hover {
+    background: #f8702b;
+    color: #fff;
+}
+
