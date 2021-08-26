@@ -1,0 +1,8 @@
+
+.users_block {
+    display: flex;
+}
+
+.users_block > div {
+    width: 50%;
+}

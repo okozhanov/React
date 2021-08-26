@@ -1,0 +1,8 @@
+
+.posts_block {
+    display: flex;
+}
+
+.posts_block > div {
+    width: 50%;
+}
