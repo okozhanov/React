@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import {useReducer} from "react";
+import reducer from "./reducers/reducer";
 
 function App() {
-  return (
+
+    let [state, dispatch] = useReducer(reducer, 0)
+
+    let plus10 = () => {
+        dispatch({type: '+', payload: 10})
+    };
+
+    let minus2 = () => {
+        dispatch({type: '-', payload: 2})
+    };
+
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>{state}</h1>
+        <button className={'button_1'} onClick={plus10}>plus 10</button><br/>
+        <button className={'button_2'} onClick={minus2}>minus 2</button>
     </div>
   );
 }
