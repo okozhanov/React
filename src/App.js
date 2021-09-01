@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Users from "./components/users/Users";
+import UsersAdd from "./components/users_add/UsersAdd";
+import UsersHideShow from "./components/users_hide_show/UsersHideShow";
+import Posts from "./components/posts/Posts";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+    return (
+        <div className="App">
+            <div className={'users_block'}>
+                <UsersHideShow/>
+                <UsersAdd/>
+                <Users/>
+            </div>
+
+            <div className={'posts_block'}>
+                <Posts/>
+            </div>
+        </div>
+    );
 }
 
 export default App;
