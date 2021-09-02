@@ -1,0 +1,37 @@
+.adding_form {
+    margin: 30px 0;
+}
+
+h3 {
+    background: #acacac;
+    padding: 20px;
+    color: #fff;
+}
+
+.adding_form input:nth-child(1) {
+    width: 300px;
+}
+
+.adding_form input:nth-child(2) {
+    width: 70px;
+}
+
+.adding_form input {
+    font-size: 18px;
+    padding: 7px;
+}
+
+.adding_form button {
+    font-size: 18px;
+    border: none;
+    background: none;
+    margin: 7px;
+    cursor: pointer;
+    color: #acacac;
+    transition: 400ms;
+}
+
+.adding_form button:hover {
+    color: #5a5a5a;
+}
+
