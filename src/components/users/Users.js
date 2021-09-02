@@ -3,7 +3,7 @@ import {useEffect} from "react";
 import {getUsers} from "../../services/users.services";
 import User from "../user/User";
 import {fetchUsers} from "../../Redux/actions";
-
+import './Users.css'
 
 export default function Users() {
 
@@ -22,8 +22,13 @@ export default function Users() {
     }, [dispatch])
 
     return (
-    <div>
-        {users.map((thisUser, index) => <User key={index} thisUser={thisUser}/>)}
-    </div>
+        <div>
+            <div className={'users'}>
+                {users.map((thisUser, index) => <User key={index} thisUser={thisUser}/>)}
+            </div>
+            <div className={'posts_block'}>
+
+            </div>
+        </div>
   );
 }

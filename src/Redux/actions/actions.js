@@ -1,4 +1,4 @@
-import {ADD_USER, CLEAR_USERS, FETCH_POSTS, FETCH_USERS} from "./index";
+import {ADD_USER, CLEAR_USERS, FETCH_POSTS, FETCH_USERS} from "./actionsTypes";
 
 
 export const fetchUsers = (value) => {

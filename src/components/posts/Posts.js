@@ -3,25 +3,19 @@ import {useEffect} from "react";
 import {getPosts} from "../../services/posts.services";
 import {fetchPosts} from "../../Redux/actions/actions";
 
-export default function Posts() {
+export default function Posts({userId}) {
 
-    // let state = useSelector(state => {
-    //     let {reducedPosts} = state
-    //     return reducedPosts
-    // })
-    // let {posts} = state
-    //
-    // console.log(state);
-    //
-    // let dispatch = useDispatch()
-    //
-    // useEffect(() => {
-    //     getPosts().then(value => dispatch(fetchPosts(value)))
-    // }, [dispatch])
+    let {posts} = useSelector(state => state.reducerPosts)
+
+    let dispatch = useDispatch()
+
+    useEffect(() => {
+        getPosts().then(value => dispatch(fetchPosts(value)))
+    }, [dispatch])
 
   return (
     <div>
-        {/*{posts.map(thisPost => <div>{thisPost.title}</div>)}*/}
+        {posts.map(thisPost => <div key={thisPost.id}>{thisPost.id}. {thisPost.title}</div>)}
     </div>
   );
 }

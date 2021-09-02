@@ -1,0 +1,25 @@
+div > button {
+    margin: 20px;
+    font-size: 17px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 300ms;
+    border: none;
+}
+
+.button_1 {
+    background: #b4dc6e;
+}
+
+.button_1:hover {
+    background: #819955;
+}
+
+.button_2 {
+    background: #fd8ea1;
+}
+
+.button_2:hover {
+    background: #c15a6f;
+}

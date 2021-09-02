@@ -7,7 +7,6 @@ import Posts from "./components/posts/Posts";
 function App() {
 
 
-
     return (
         <div className="App">
             <div className={'users_block'}>
@@ -16,7 +15,7 @@ function App() {
                 <Users/>
             </div>
 
-            <div className={'posts_block'}>
+            <div>
                 <Posts/>
             </div>
         </div>

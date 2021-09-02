@@ -1,0 +1,25 @@
+.add_user_form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.add_user_form button {
+    width: 215px;
+    font-size: 17px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 300ms;
+    border: none;
+    background: none;
+}
+
+.add_user_form button:hover {
+    background: #f3ef3c;
+}

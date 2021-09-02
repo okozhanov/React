@@ -1,6 +1,7 @@
 import {useDispatch} from "react-redux";
 import {getUsers} from "../../services/users.services";
 import {clearUsers, fetchUsers} from "../../Redux/actions";
+import './UsersHideShow.css'
 
 export default function UsersHideShow() {
 
@@ -17,11 +18,13 @@ export default function UsersHideShow() {
 
     return (
     <div>
-        <button onClick={clearThoseUsers}>
+        <h3>Control users</h3>
+
+        <button className={'button_1'} onClick={clearThoseUsers}>
             CLEAR USERS
         </button>
 
-        <button onClick={displayUsers}>
+        <button className={'button_2'} onClick={displayUsers}>
             DISPLAY USERS
         </button>
     </div>
