@@ -1,0 +1,12 @@
+.menu {
+    width: 200px;
+    min-height: 100%;
+    position: fixed;
+}
+
+.menu a {
+
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.page {
+    margin-left: 250px;
+}
+
+.movies_cards {
+    display: flex;
+    flex-wrap: wrap;
+}

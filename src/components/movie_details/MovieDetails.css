@@ -1,0 +1,42 @@
+.movie {
+    margin-left: 300px;
+    color: #fff;
+}
+
+.movie_details {
+    margin: 30px 0;
+}
+
+.movie_info h3 {
+    margin-top: 0;
+}
+
+.genre, .language, .countrie {
+    display: block;
+}
+
+.fa-circle {
+    margin: 0 5px 0 20px;
+    font-size: 11px;
+}
+
+.movie_details {
+    display: flex;
+}
+
+.movie_info {
+    margin-left: 20px;
+}
+
+.title_image img {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.movie_info h5 {
+    margin: 8px 0;
+}
+
+.overview {
+    width: 500px;
+}
