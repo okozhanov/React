@@ -1,22 +1,15 @@
-import './MoviesListCard.css'
-import {
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
-    Link,
-    // withRouter
-} from "react-router-dom";
+import {Link} from "react-router-dom";
+import {link_img_w300} from "../movies_list_card/MoviesListCard";
+import './GenresMovieCard.css'
 import {Stargazer} from "../../services/stargazer";
 
-export const link_img_w300 = 'https://image.tmdb.org/t/p/w300'
-
-export default function MoviesListCard({thisMovie}) {
+export default function GenresMovieCard({thisMovie, genre}) {
 
     let stars = Stargazer(thisMovie.vote_average)
 
     return (
-        <div className={'movie_card'}>
-            <Link to={{pathname: '/movies/' + thisMovie.id, state_1: thisMovie.id, state_2: stars}}>
+        <div className={'movie_by_genre'}>
+            <Link to={{pathname: '/genres/' + genre + '/' + thisMovie.id, state_1: thisMovie.id, state_2: stars}}>
                 {thisMovie.poster_path && <img src={link_img_w300 + thisMovie.poster_path} alt="Poster"/>}
                 <h3>{thisMovie.title}</h3>
                 <h5>{thisMovie.release_date}</h5>

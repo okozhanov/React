@@ -1,28 +1,23 @@
-.movie_card {
+.movie_by_genre {
     width: 30%;
     margin: 1.5%;
 }
 
-.movie_card a {
+.movie_by_genre a {
     text-decoration: none;
     color: #fff;
 }
 
-.movie_card a h5 {
-    margin: 7px 0;
+.movie_by_genre a h5 {
+    margin: 2px 0;
 }
 
-.movie_card img {
+.movie_by_genre img {
     border: 2px solid #840606;
     box-sizing: border-box;
     transition: 400ms;
 }
 
-.movie_card img:hover {
+.movie_by_genre img:hover {
     border: 2px solid #fff;
-}
-
-.fa-star {
-    color: #e21a1a;
-    font-size: 18px;
 }

@@ -10,7 +10,7 @@ export default function MovieDetails({history}) {
 
     let filmId = history.location.state_1
 
-    console.log(filmId);
+    let stars = history.location.state_2
 
     let details = useSelector(state => state.details)
 
@@ -18,9 +18,7 @@ export default function MovieDetails({history}) {
 
     useEffect(() => {
         getDetails(filmId).then(value => dispatch(fetchDetails(value)))
-    }, [dispatch, filmId])
-
-    console.log(details);
+    }, [filmId, dispatch])
 
     return (
         <div className={'movie'}>
@@ -34,13 +32,17 @@ export default function MovieDetails({history}) {
 
                 <div className={'movie_info'}>
                     <h3>{details.tagline}</h3>
-                    <h4>genres: {details.genres.map(genre => <span className={'genre'}><i
+                    {stars.yes_stars && stars.yes_stars.map((star, index) => <i key={index} className="fas fa-star"> </i>)}
+                    {stars.no_stars && stars.no_stars.map((star, index) => <i key={index} className="far fa-star"> </i>)}
+                    <h4>genres: {details.genres && details.genres.map(genre => <span key={genre.id} className={'genre'}><i
                         className="far fa-circle"> </i>{genre.name}</span>)}</h4>
                     <h5>released: {details.release_date}</h5>
                     <h5>runtime: {details.runtime} min</h5>
-                    <h5>languages: {details.spoken_languages.map(language => <span className={'language'}><i
+                    <h5>languages: {details.spoken_languages && details.spoken_languages.map(language => <span
+                        key={language.name} className={'language'}><i
                         className="far fa-circle"> </i>{language.name}</span>)}</h5>
-                    <h5>countries: {details.production_countries.map(countrie => <span className={'countrie'}><i
+                    <h5>countries: {details.spoken_languages && details.production_countries.map(countrie => <span
+                        key={countrie.name} className={'countrie'}><i
                         className="far fa-circle"> </i>{countrie.name}</span>)}</h5>
                 </div>
 

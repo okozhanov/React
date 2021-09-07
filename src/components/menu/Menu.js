@@ -7,14 +7,20 @@ import {
 } from "react-router-dom";
 import './Menu.css'
 
+let switcher = () => {
+    let myApp = document.getElementsByClassName('App')[0]
+    myApp.classList.toggle('light_mode')
+}
+
 export default function Menu() {
     return (
         <div className={'menu'}>
+            <button onClick={switcher}>switch</button>
             <Link id={'films_link'} to={'/movies'}>
-                <h2>Films</h2>
+                <p>Movies</p>
             </Link>
             <Link id={'genres_link'} to={'/genres'}>
-                <h2>Genres</h2>
+                <p>Genres</p>
             </Link>
         </div>
     );

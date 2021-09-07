@@ -1,0 +1,20 @@
+.genres {
+    margin: 50px 250px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.genres .genre {
+    display: block;
+    color: #fff;
+    margin: 8px;
+    font-size: 27px;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+.genres .genre:hover {
+    color: #840606;
+}
+

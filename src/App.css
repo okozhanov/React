@@ -1,9 +1,21 @@
+
 .App {
     display: flex;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpfzyfx5PXxAuisUdRmq58CPS-NJQeL6cUvg&usqp=CAU");
+    min-height: 850px;
 }
 
 #background {
     position: fixed;
     z-index: -1;
     width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.light_mode {
+
 }
