@@ -41,15 +41,15 @@ export default function MoviesList(/*props*/) {
 
     return (
         <div className={'page'} id={'top'}>
-            <h1>The Movies Data Base</h1>
+            <h1 className={'header'}>The Movies Data Base</h1>
             <p className={'label'}>Your best movie experience</p>
             <div className={'movies_cards'}>
                 {movies.map((thisMovie) => <MoviesListCard key={thisMovie.id} thisMovie={thisMovie}/>)}
             </div>
-            <div className={'movies_page_clicker'}>
-                <a href="#top"><button onClick={previousPage}>Previous</button></a>
+            <div className={'page_clicker'}>
+                <a href="#top"><button className={'clicker_button'} onClick={previousPage}>Previous</button></a>
                 <span className={'page_number'}>Page {page}</span>
-                <a href="#top"><button onClick={nextPage}>Next</button></a>
+                <a href="#top"><button className={'clicker_button'} onClick={nextPage}>Next</button></a>
             </div>
 
         </div>

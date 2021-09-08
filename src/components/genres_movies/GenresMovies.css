@@ -8,14 +8,14 @@
     flex-wrap: wrap;
 }
 
-.genres_movies_page_clicker {
-    margin: 50px 0;
-}
+/*.genres_movies_page_clicker {*/
+/*    margin: 50px 0;*/
+/*}*/
 
-.genres_movies_page_clicker .page_number {
-    font-size: 21px;
-    margin: 15px;
-}
+/*.genres_movies_page_clicker .page_number {*/
+/*    font-size: 21px;*/
+/*    margin: 15px;*/
+/*}*/
 
 .genres_movies_page_clicker button {
     font-size: 21px;

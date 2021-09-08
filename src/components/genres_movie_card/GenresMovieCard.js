@@ -8,7 +8,7 @@ export default function GenresMovieCard({thisMovie, genre}) {
     let stars = Stargazer(thisMovie.vote_average)
 
     return (
-        <div className={'movie_by_genre'}>
+        <div className={'movie_card'}>
             <Link to={{pathname: '/genres/' + genre + '/' + thisMovie.id, state_1: thisMovie.id, state_2: stars}}>
                 {thisMovie.poster_path && <img src={link_img_w300 + thisMovie.poster_path} alt="Poster"/>}
                 <h3>{thisMovie.title}</h3>

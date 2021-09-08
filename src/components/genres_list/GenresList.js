@@ -27,7 +27,7 @@ export default function GenresList() {
         <div className={'page_genres'}>
 
             <div className={'genres'}>
-                {genres.map(thisGenre => <Link key={thisGenre.id} className={'genre'} to={{
+                {genres.map(thisGenre => <Link key={thisGenre.id} className={'genre_item'} to={{
                     pathname: '/genres/' + thisGenre.name,
                     state_1: thisGenre.id,
                     state_2: thisGenre.name

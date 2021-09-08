@@ -22,7 +22,7 @@ export default function MovieDetails({history}) {
 
     return (
         <div className={'movie'}>
-            <h1>{details.title}</h1>
+            <h1 className={'header'}>{details.title}</h1>
 
             <div className={'movie_details'}>
 
@@ -32,8 +32,8 @@ export default function MovieDetails({history}) {
 
                 <div className={'movie_info'}>
                     <h3>{details.tagline}</h3>
-                    {stars.yes_stars && stars.yes_stars.map((star, index) => <i key={index} className="fas fa-star"> </i>)}
-                    {stars.no_stars && stars.no_stars.map((star, index) => <i key={index} className="far fa-star"> </i>)}
+                    {stars && stars.yes_stars.map((star, index) => <i key={index} className="fas fa-star"> </i>)}
+                    {stars && stars.no_stars.map((star, index) => <i key={index} className="far fa-star"> </i>)}
                     <h4>genres: {details.genres && details.genres.map(genre => <span key={genre.id} className={'genre'}><i
                         className="far fa-circle"> </i>{genre.name}</span>)}</h4>
                     <h5>released: {details.release_date}</h5>

@@ -3,7 +3,7 @@
     color: #fff;
 }
 
-.page > h1 {
+.header {
     margin: 40px 0 0 0;
 }
 
@@ -18,16 +18,16 @@
     flex-wrap: wrap;
 }
 
-.movies_page_clicker {
+.page_clicker {
     margin: 50px 0;
 }
 
-.movies_page_clicker .page_number {
+.page_clicker .page_number {
     font-size: 21px;
     margin: 15px;
 }
 
-.movies_page_clicker button {
+.clicker_button {
     font-size: 21px;
     padding: 10px;
     background: none;
@@ -37,6 +37,10 @@
     transition: 400ms;
 }
 
-.movies_page_clicker button:hover {
+.clicker_button:hover {
     border: 3px solid #fff;
+}
+
+.clicker_button_light:hover {
+    border: 3px solid #840606;
 }

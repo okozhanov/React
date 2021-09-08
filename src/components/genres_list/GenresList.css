@@ -5,16 +5,17 @@
     width: 60%;
 }
 
-.genres .genre {
+.genre_item {
     display: block;
     color: #fff;
-    margin: 8px;
     font-size: 27px;
     text-decoration: none;
     transition: 400ms;
+    padding: 8px;
 }
 
-.genres .genre:hover {
+.genre_item:hover {
     color: #840606;
+    background: #fff;
 }
 
