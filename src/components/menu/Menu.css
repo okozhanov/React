@@ -38,6 +38,9 @@
 }
 
 .label_light {
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 50px;
     color: #000;
     background: #fff;
     width: 350px;
@@ -49,23 +52,39 @@
     display: flex;
     justify-content: center;
     padding: 10px;
+    margin: 50px 0;
 }
 
 .clicker_button_light {
     color: #000;
-    border: 3px solid #fff;
+    /*border: 3px solid #fff;*/
     transition: 400ms;
     margin-top: 5px;
+    font-size: 21px;
+    padding: 10px;
+    background: none;
+    border: 3px solid #840606;
+    /*color: #fff;*/
+    cursor: pointer;
+    /*transition: 400ms;*/
 }
 
 .page_number_light {
     color: #000;
+    font-size: 21px;
+    margin: 15px;
 }
 
 .genre_item_light {
     background: #fff;
     margin: 8px;
-    color: #000!important;
+    color: #000;
+    display: block;
+    /*color: #fff;*/
+    font-size: 27px;
+    text-decoration: none;
+    transition: 400ms;
+    padding: 8px;
 }
 
 .movie_card_light {
@@ -86,9 +105,17 @@
     color: #000;
 }
 
-.movie_info_light, .overview_light {
+.movie_info_light {
     background: #fff;
     color: #000;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.overview_light {
+    background: #fff;
+    color: #000;
+    width: 500px;
 }
 
 .switcher {

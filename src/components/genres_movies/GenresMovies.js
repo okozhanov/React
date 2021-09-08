@@ -38,14 +38,14 @@ export default function GenresMovies({history}) {
 
     return (
         <div className={'page_movies_by_genre'}>
-            <h1 className={'header'}>{genreName}</h1>
-            <div className={'movies_by_genre'}>
+            <h1 className={'header_light'}>{genreName}</h1>
+            <div className={'movies_cards'}>
                 {movies.map(thisMovie => <GenresMovieCard key={thisMovie.id} thisMovie={thisMovie} genre={genreName}/>)}
             </div>
-            <div className={'page_clicker'}>
-                <button className={'clicker_button'} onClick={previousPage}>Previous</button>
-                <span className={'page_number'}>Page {page}</span>
-                <button className={'clicker_button'} onClick={nextPage}>Next</button>
+            <div className={'page_clicker_light'}>
+                <button className={'clicker_button_light'} onClick={previousPage}>Previous</button>
+                <span className={'page_number_light'}>Page {page}</span>
+                <button className={'clicker_button_light'} onClick={nextPage}>Next</button>
             </div>
         </div>
 )

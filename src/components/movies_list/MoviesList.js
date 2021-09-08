@@ -4,6 +4,7 @@ import MoviesListCard from "../movies_list_card/MoviesListCard";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchMovies} from "../../Redux/actions";
 import './MoviesList.css'
+import {/*number, */switcher_MoviesList} from "../../services/switchers";
 
 
 export default function MoviesList(/*props*/) {
@@ -38,18 +39,21 @@ export default function MoviesList(/*props*/) {
         }
     }
 
+    // useEffect(() => {
+    //     switcher_MoviesList()
+    // }, [number])
 
     return (
         <div className={'page'} id={'top'}>
-            <h1 className={'header'}>The Movies Data Base</h1>
-            <p className={'label'}>Your best movie experience</p>
+            <h1 className={'header_light'}>The Movies Data Base</h1>
+            <p className={'label_light'}>Your best movie experience</p>
             <div className={'movies_cards'}>
                 {movies.map((thisMovie) => <MoviesListCard key={thisMovie.id} thisMovie={thisMovie}/>)}
             </div>
-            <div className={'page_clicker'}>
-                <a href="#top"><button className={'clicker_button'} onClick={previousPage}>Previous</button></a>
-                <span className={'page_number'}>Page {page}</span>
-                <a href="#top"><button className={'clicker_button'} onClick={nextPage}>Next</button></a>
+            <div className={'page_clicker_light'}>
+                <a href="#top"><button className={'clicker_button_light'} onClick={previousPage}>Previous</button></a>
+                <span className={'page_number_light'}>Page {page}</span>
+                <a href="#top"><button className={'clicker_button_light'} onClick={nextPage}>Next</button></a>
             </div>
 
         </div>

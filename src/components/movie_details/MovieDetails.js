@@ -22,7 +22,7 @@ export default function MovieDetails({history}) {
 
     return (
         <div className={'movie'}>
-            <h1 className={'header'}>{details.title}</h1>
+            <h1 className={'header_light'}>{details.title}</h1>
 
             <div className={'movie_details'}>
 
@@ -30,7 +30,7 @@ export default function MovieDetails({history}) {
                     <img src={link_img_w500 + details.backdrop_path} alt="title_image"/>
                 </div>
 
-                <div className={'movie_info'}>
+                <div className={'movie_info_light'}>
                     <h3>{details.tagline}</h3>
                     {stars && stars.yes_stars.map((star, index) => <i key={index} className="fas fa-star"> </i>)}
                     {stars && stars.no_stars.map((star, index) => <i key={index} className="far fa-star"> </i>)}
@@ -48,7 +48,7 @@ export default function MovieDetails({history}) {
 
             </div>
 
-            <div className={'overview'}>
+            <div className={'overview_light'}>
                 <h3>Owerview</h3>
                 <p>{details.overview}</p>
             </div>

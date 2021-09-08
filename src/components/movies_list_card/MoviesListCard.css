@@ -1,24 +1,24 @@
-.movie_card {
+.movie_card_light {
     width: 30%;
     margin: 1.5%;
 }
 
-.movie_card a {
+.movie_card_light a {
     text-decoration: none;
     color: #fff;
 }
 
-.movie_card a h5 {
+.movie_card_light a h5 {
     margin: 7px 0;
 }
 
-.movie_card img {
+.movie_card_light img {
     border: 2px solid #840606;
     box-sizing: border-box;
     transition: 400ms;
 }
 
-.movie_card img:hover {
+.movie_card_light img:hover {
     border: 2px solid #fff;
 }
 
